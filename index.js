@@ -12,10 +12,10 @@ const {
   ChannelType,
 } = require('discord.js');
 
-const TOKEN = 'MTUyNzg1MjcxNjcyNDg0Njc1NA.GaaZ1w.BtNqIroZZgctQVkCLPong9YH_JIkEGNd6rxitg';
-const CLIENT_ID = '1527852716724846754';
-const GUILD_ID = '1373455308067963000';
-const STAFF_ROLE_ID = '1439346974833770536';
+const TOKEN = process.env.TOKEN;
+const CLIENT_ID = process.env.CLIENT_ID;
+const GUILD_ID = process.env.GUILD_ID;
+const STAFF_ROLE_ID = process.env.STAFF_ROLE_ID;
 
 const client = new Client({
   intents: [
